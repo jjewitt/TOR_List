@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Fetch File
-      run: curl -o t_details https://onionoo.torproject.org/details
+      run: curl -o tor_details https://onionoo.torproject.org/details
 
     - name: Commit and Push if changes
       run: |
