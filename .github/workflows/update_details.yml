@@ -1,9 +1,8 @@
 name: Fetch and Commit Onion Details
 
 on:
-  schedule:
-    - cron: '40 * * * *'  # Runs at midnight UTC every day
-
+  workflow_dispatch:
+  
 jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
