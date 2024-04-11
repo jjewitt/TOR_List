@@ -1,5 +1,8 @@
 name: Fetch and Commit Onion Details
-
+permissions:
+  contents:write
+  pages:write
+  
 on:
   workflow_dispatch:
   
