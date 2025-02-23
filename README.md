@@ -1,4 +1,6 @@
-This repo contains a list of TOR nodes, updated directly from TOR's back end servers.
+This repo contains lists of TOR nodes, updated directly from TOR's back end servers.
+If a node is only a middle node, it's ignored for the purposes of this project. 
+
 1. exit_nodes.csv - simply a single-column file of IP addresses, one per line. See file metadata for last update time.
 2. guard_nodes.csv - like above, only for guard nodes.
 3. recent_nodes.csv - these are guard and exit nodes that have not been seen in greater than about 2 days. Not the best for alerting, but still good for hunting.
