@@ -1,3 +1,9 @@
+** Back Online **
+Recently the output of one of the temp files exceeded 100MB due to node list growth. Github errored out and the job failed, resulting in the lists not updating.
+The issue has been fixed.
+
+----------------------------------------------------------------------------------
+
 This repo contains lists of TOR nodes, updated directly from TOR's back end servers.
 If a node is only a middle node, it's ignored for the purposes of this project. 
 
